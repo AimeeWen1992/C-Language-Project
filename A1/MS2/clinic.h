@@ -1,9 +1,9 @@
 /*/////////////////////////////////////////////////////////////////////////
                         Assignment 1 - Milestone 2
-Full Name  :
-Student ID#:
-Email      :
-Section    :
+Full Name  : Rong-Yuan, Wen
+Student ID#: 114556228
+Email      : rwen1@myseneca.ca
+Section    : NAA
 
 Authenticity Declaration:
 I declare this submission is the result of my own work and has not been
@@ -40,11 +40,20 @@ piece of work is entirely of my own creation.
 
 // Data type: Phone
 // ToDo:
-
+struct Phone
+{
+    char description[PHONE_DESC_LEN + 1];
+    char number[PHONE_LEN + 1];
+};
 
 // Data type: Patient 
 // ToDo:
-
+struct Patient
+{
+    int patientNumber;
+    char name[NAME_LEN + 1];
+    struct Phone phone;
+};
 
 // ClinicData type: Provided to student
 // !!! DO NOT MODIFY THIS DATA TYPE !!!
@@ -53,7 +62,6 @@ struct ClinicData
     struct Patient* patients;
     int maxPatient;
 };
-
 
 
 //////////////////////////////////////
@@ -130,6 +138,5 @@ void inputPatient(struct Patient* patient);
 
 // Get user input for phone contact information
 void inputPhoneData(struct Phone* phone);
-
 
 #endif // !CLINIC_H
