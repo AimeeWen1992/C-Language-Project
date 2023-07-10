@@ -3,10 +3,10 @@
 
 /*/////////////////////////////////////////////////////////////////////////
                         Assignment 1 - Milestone 1
-Full Name  :
-Student ID#:
-Email      :
-Section    :
+Full Name  : Rong-Yuan, Wen
+Student ID#: 114556228
+Email      : rwen1@myseneca.ca
+Section    : NAA
 
 Authenticity Declaration:
 I declare this submission is the result of my own work and has not been
